@@ -1,0 +1,10 @@
+import './index.css';
+import './reset.css';
+import '../components/E404/index.css';
+import '../components/search/index.css';
+import '../components/catalog/index.css';
+import '../components/card/index.css';
+import '../view/home/index.css';
+import '../view/page/index.css';
+import '../view/aboutUs/index.css';
+import '../components/header/index.css';

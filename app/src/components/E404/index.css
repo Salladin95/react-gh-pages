@@ -1,0 +1,14 @@
+.e404 {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error__title {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-left: 10px;
+}

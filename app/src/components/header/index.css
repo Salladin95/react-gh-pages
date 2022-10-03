@@ -1,0 +1,29 @@
+.header {
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.current-path {
+  display: flex;
+}
+
+.path {
+  font-size: 14px;
+  position: relative;
+  padding: 6px 10px;
+}
+
+.path:not(:last-child) {
+  margin-right: 5px;
+}
+
+.path:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: rgb(161, 161, 216);
+}

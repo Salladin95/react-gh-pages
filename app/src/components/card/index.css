@@ -1,0 +1,50 @@
+.card {
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
+  width: calc(100% / 4 - 30px);
+  max-width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  margin-bottom: 10px;
+  min-height: 415px;
+}
+
+.card__title {
+  margin-bottom: 10px;
+}
+
+.card__descrep {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.card__link:hover {
+  cursor: pointer;
+}
+
+.card__link {
+  font-size: 18px;
+  color: #0b4ecb;
+}
+
+@media screen and (max-width: 1040px) {
+  .card {
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: calc(100% / 2 - 30px);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card {
+    width: calc(100% - 30px);
+  }
+}
